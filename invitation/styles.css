@@ -182,6 +182,7 @@ body{
 }
 
 @media screen and (max-width:710px){  /* this is the breakpoint */
+	
 	.title{
 		bottom: 15px;
 		left: 25px;
@@ -213,5 +214,55 @@ body{
 		top:20px;
 		right: 40px;
 		font-size: 15px;
+	}
+}
+
+@media screen and (max-width:500px){  /* this is the breakpoint */
+
+	.breathe, .breathe2{
+		top: 45vh;
+	}
+
+	.breathe h1{
+		font-size: 40pt;
+	}
+
+	.breathe2 h1{
+		font-size: 40pt;
+	}
+
+	.bottom-mobile, .top-mobile{
+		width: 700px;
+		height: 700px;
+	}
+
+	.top-mobile{
+		top: -400px;
+		right: -250px;
+	}
+
+	.text{
+		top:20px;
+		right: 40px;
+		font-size: 15px;
+	}
+
+	.title{
+		bottom: 50px;
+		left: 25px;
+	}
+}
+
+@media screen and (max-width:350px){  /* this is the breakpoint */
+
+	.top-mobile{
+		top: -490px;
+		right: -250px;
+	}
+
+	.text{
+		top:10px;
+		right: 30px;
+		font-size: 12px;
 	}
 }
