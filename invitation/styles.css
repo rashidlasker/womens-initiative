@@ -1,0 +1,15 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	height: 100vh;
+	position: relative;
+}
+
+.title{
+	position: absolute;
+	bottom: 30px;
+	left: 30px;
+}
