@@ -65,6 +65,10 @@ body{
 	color: #00843f;
 }
 
+.edge h1{
+	color: black;
+}
+
 .bottom-circle, .bottom-mobile{
 	position: absolute;
 	bottom: -400px;

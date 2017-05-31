@@ -1,4 +1,9 @@
 $(function(){
+  if (window.getComputedStyle(document.body).mixBlendMode == undefined) {
+    $(".title").addClass("edge");
+    $(".breathe").addClass("edge");
+    $(".breathe2").addClass("edge");
+  }
   $('.breathe').fadeIn(1000);
   $('.breathe').fadeOut(2000);
   var elem = document.getElementById("animate");
