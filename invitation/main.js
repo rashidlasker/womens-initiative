@@ -1,4 +1,5 @@
 $(function(){
+  $('.breathe').fadeIn(1000);
   $('.breathe').fadeOut(2000);
   var elem = document.getElementById("animate");
   var elem2 = document.getElementById("animate2"); 

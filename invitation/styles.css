@@ -34,6 +34,7 @@ body{
 	mix-blend-mode: color-dodge;
 	z-index: 1;
 	text-align: center;
+	display: none;
 }
 
 .breathe h1{
